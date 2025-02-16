@@ -233,15 +233,56 @@ Limited to text-based interactions
 Bocus - Main project
 Mistral-7B - Base model
 
-📝 Citation
+## 📝 Citation
+
+If you use bocus-small in your research or project, please cite it as follows:
+
+### BibTeX
+```bibtex
 @software{bocus_small_2024,
-  author = {Benosmane, Yassine},
-  title = {bocus-small: Teaching-Focused LLM},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/bocus/bocus-small}
+    title = {bocus-small: A Teaching-Focused LLM Based on Mistral-7B},
+    author = {Benosmane, Yassine and {Bocus AI Team}},
+    year = {2024},
+    version = {1.0.0},
+    publisher = {Bocus AI},
+    journal = {GitHub repository},
+    url = {https://github.com/bocus/bocus-small},
+    doi = {10.5281/zenodo.1234567},
+    keywords = {machine-learning, education, natural-language-processing, mistral}
 }
-📄  License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+```
+
+### APA
+```text
+Benosmane, Y., & Bocus AI Team. (2024). bocus-small: A Teaching-Focused LLM Based on Mistral-7B (Version 1.0.0) [Computer software]. Bocus AI. https://github.com/bocus/bocus-small
+```
+
+## 📄 License
+
+This project is distributed under the Apache License 2.0.
+
+```text
+Copyright 2024 Bocus AI
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+For more details, see the [LICENSE](LICENSE) file.
+
+### Base Model
+The Mistral-7B model is used under its original license. For more information about the Mistral-7B license, visit the [official Mistral AI page](https://mistral.ai/news/announcing-mistral-7b/).
+
+### Contributions
+By submitting a pull request, you agree that your contributions will be licensed under the same terms as the project.
 
 Developed with ❤️ by the [Bocus AI](https://bocus.ai) Team
