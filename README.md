@@ -13,6 +13,55 @@ bocus-small is an open-source LLM based on Mistral-7B, specialized in teaching p
 - Reduced model size through 4-bit quantization 
 - LoRA approach for efficient adaptation
 
+## 📚 Learning Methods & Datasets
+
+Our LLM has been fine-tuned using five comprehensive learning methodologies, each supported by specialized datasets:
+
+### 📊 Pareto Principle (80/20 Rule)
+Focusing on high-impact learning elements:
+- Input/output analysis patterns
+- Resource optimization frameworks
+- Impact maximization strategies
+- Performance tracking systems
+- Success metrics and KPIs
+- Implementation guidelines
+
+### 🎓 Feynman Technique
+Mastering through teaching and simplification:
+- Explanation patterns for complex topics
+- Simplification frameworks
+- Teaching methodologies
+- Knowledge gap identification
+- Validation processes
+- Real-world applications
+
+### 🧩 Chunking Method
+Breaking down complex information:
+- Decomposition strategies
+- Connection frameworks
+- Progressive learning sequences
+- Integration methods
+- Learning cycles
+- Implementation patterns
+
+### ⏱️ Spaced Repetition System
+Optimizing long-term retention:
+- Interval optimization algorithms
+- Performance assessment metrics
+- Review scheduling systems
+- Retention tracking
+- Integration frameworks
+- Implementation guidelines
+
+### 🔄 Active Recall
+Strengthening through retrieval practice:
+- Testing frameworks
+- Recall techniques
+- Progress tracking
+- Performance metrics
+- Practice strategies
+- Integration methods
+
 ## 🚀 Installation
 
 ### Using pip
@@ -160,8 +209,8 @@ async def explain_topic(request: ExplanationRequest):
 
 ## 🛠️ Technical Details
 
+### Model Architecture
 ```python
-# Model Configuration
 model_config = {
     "base_model": "mistralai/Mistral-7B-v0.1",
     "context_window": 8192,
@@ -181,6 +230,13 @@ model_config = {
     }
 }
 ```
+
+### Key Specifications
+- Base Model: Mistral-7B
+- Training Method: LoRA fine-tuning
+- Context Window: 8k tokens
+- Quantization: 4-bit
+- License: Apache 2.0
 
 ## 🔍 Performance Monitoring
 
@@ -220,7 +276,7 @@ Quantization: 4-bit
 License: Apache 2.0
 
 🤝 Contributing
-We welcome contributions! Please check our Contributing Guidelines before submitting pull requests.
+We welcome contributions! Please check our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 ⚠️ Limitations
 
 Specialized for programming concepts
